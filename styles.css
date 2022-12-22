@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background-color: #424242;
+    color: #fff;
+    border: none;
+    margin: 2px;
+}
+button:hover{
+    background-color: #616161;
+    cursor: pointer;
+}
+.title{
+    font-family: 'Lobster', cursive;
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: #212121;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.group-container{
+    display: flex;
+    justify-content: space-between
+}
+.modalWinner{
+    display: none;
+    border-radius: 1rem;
+    background-image: url("./winnerPicture.jpg");
+    background-size: contain;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 45rem;
+    height: 30rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.showModalWinnerBodyStyles{
+    background-color: #616161;
+}
+.showModalWinner {
+    display: flex;
+}
+.textModal{
+    font-size: 4rem;
+}
+.buttonPlayAgain{
+    width: 3rem;
+    height: 3rem;
+    background-color: #f57c00;
+    margin-bottom: 2rem;
+}
+.buttonPlayAgainModal{
+    width: 10rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f57c00;
+}
+.buttonPlayAgainModal:hover{
+    cursor: pointer;
+    background-color: #ef6c00;
+}
+.buttonPlayAgain:hover{
+    cursor: pointer;
+    background-color: #ef6c00;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
